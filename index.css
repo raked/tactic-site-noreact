@@ -1,14 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 44px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+#about {
+  display: flex;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: black;
+  overflow: hidden;
 }
 
 .nav-link {
-    flex-grow: 1;
-    padding: 100px;
+  flex-grow: 1;
+  padding: 8rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
